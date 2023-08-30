@@ -4,6 +4,7 @@ import toyShop.model.Toy;
 
 import java.io.FileWriter;
 import java.util.List;
+import java.util.Scanner;
 
 public class DataIO {
     public void writePrizeToy(FileWriter fileWriter, List<Toy> prizeToys){
@@ -16,4 +17,5 @@ public class DataIO {
             e.printStackTrace();
         }
     }
+
 }

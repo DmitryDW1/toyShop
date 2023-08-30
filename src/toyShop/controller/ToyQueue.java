@@ -40,12 +40,13 @@ public class ToyQueue {
         }
     }
     public boolean givePrizeToy() {
+        System.out.println(queue.toString());
         if (!queue.isEmpty()) {
             Toy prizeToy = chooseToy();
-            System.out.println(queue.toString());
             if (prizeToy != null) {
                 queue.remove(prizeToy);
                 prizeToys.add(prizeToy);
+                System.out.println(queue.toString());
                 return true;
             }
         }
