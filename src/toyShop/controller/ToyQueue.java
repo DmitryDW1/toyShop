@@ -31,26 +31,28 @@ public class ToyQueue {
 
     private Toy chooseToy() {
         double rand = random.nextDouble() * 100;
-        if (rand < 20) {
+        if (rand < 10) {
             return queue.stream().filter(t -> t.getWeight() <= 1).findFirst().orElse(null);
-        } else if (rand < 40) {
-            return queue.stream().filter(t -> t.getWeight() > 1 && t.getWeight() <= 2).findFirst().orElse(null);
+        } else if (rand < 60) {
+            return queue.stream().filter(t -> t.getWeight() > 1 && t.getWeight() <= 10).findFirst().orElse(null);
         } else {
-            return queue.stream().filter(t -> t.getWeight() > 2 && t.getWeight() <= 6).findFirst().orElse(null);
+            return queue.stream().filter(t -> t.getWeight() > 11 && t.getWeight() <= 90).findFirst().orElse(null);
         }
     }
-    public boolean givePrizeToy() {
+    public String givePrizeToy() {
         System.out.println(queue.toString());
         if (!queue.isEmpty()) {
             Toy prizeToy = chooseToy();
-            if (prizeToy != null) {
+            if (prizeToy == null) {
+                return "0";
+            }else{
                 queue.remove(prizeToy);
                 prizeToys.add(prizeToy);
                 System.out.println(queue.toString());
-                return true;
+                return prizeToy.getName();
             }
         }
-        return false;
+        return null;
     }
 
     public List<Toy> getAllPrizeToys() {
