@@ -40,7 +40,7 @@ public class ToyQueue {
         }
     }
     public String givePrizeToy() {
-        System.out.println(queue.toString());
+
         if (!queue.isEmpty()) {
             Toy prizeToy = chooseToy();
             if (prizeToy == null) {
@@ -48,14 +48,23 @@ public class ToyQueue {
             }else{
                 queue.remove(prizeToy);
                 prizeToys.add(prizeToy);
-                System.out.println(queue.toString());
                 return prizeToy.getName();
             }
         }
         return null;
     }
-
+    public boolean empty(){
+        return queue.isEmpty();
+    }
+    public int sizeQueue(){
+        return queue.size() + 1;
+    }
     public List<Toy> getAllPrizeToys() {
         return prizeToys;
     }
+    @Override
+    public String toString() {
+        return String.valueOf(queue);
+    }
+
 }

@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814bc4e3-7ac0-4ad3-9b8b-aca00346d020" name="Changes" comment="Create ToyShop">
-      <change afterPath="$PROJECT_DIR$/src/testShop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testShop/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testShop/data/WinList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testShop/model/Draw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testShop/model/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testShop/model/ToyShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="814bc4e3-7ac0-4ad3-9b8b-aca00346d020" name="Changes" comment="Change ToyShop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/prize_toys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/prize_toys.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/result.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toyShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyShop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toyShop/controller/DataIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyShop/controller/DataIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toyShop/controller/ToyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyShop/controller/ToyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toyShop/model/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyShop/model/Toy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toyShop/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toyShop/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/toys.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/toyShop.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/DmitryDW/IdeaProjects/toyShop/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DmitryDW/IdeaProjects/toyShop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DmitryDW\IdeaProjects\toyShop\src" />
@@ -149,7 +139,9 @@
       <workItem from="1693827167219" duration="1201000" />
       <workItem from="1693828924475" duration="118000" />
       <workItem from="1693829283763" duration="1188000" />
-      <workItem from="1693830494398" duration="19922000" />
+      <workItem from="1693830494398" duration="22847000" />
+      <workItem from="1694100106948" duration="14120000" />
+      <workItem from="1694266778001" duration="19562000" />
     </task>
     <task id="LOCAL-00001" summary="Create ToyShop">
       <created>1693419798800</created>
@@ -158,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693419798800</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change ToyShop">
+      <created>1693851582854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693851582854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +177,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Create ToyShop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create ToyShop" />
+    <MESSAGE value="Change ToyShop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change ToyShop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

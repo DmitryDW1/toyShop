@@ -2,18 +2,16 @@ package toyShop.controller;
 
 import toyShop.model.Toy;
 
-import javax.imageio.IIOException;
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class DataIO {
-    public void writePrizeToy(FileWriter fileWriter, List<Toy> prizeToys) {
+    public void writePrizeToy(List<Toy> prizeToys, FileWriter fileWriter) {
         try {
             for (Toy prizeToy : prizeToys) {
                 fileWriter.write(prizeToy.getName() + "\n");
             }
+            fileWriter.write("--------" + "\n");
             fileWriter.close();
         } catch (Exception e) {
             e.printStackTrace();
